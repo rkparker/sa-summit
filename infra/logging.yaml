@@ -1,7 +1,0 @@
-  S3BucketSpaces:
-    Type: 'AWS::S3::Bucket'
-    Properties:
-      PublicAccessBlockConfiguration:
-        BlockPublicAcls: False
-      VersioningConfiguration:
-        Status: Disabled
