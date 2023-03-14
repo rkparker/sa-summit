@@ -1,0 +1,10 @@
+FROM node
+
+COPY . /
+
+ENV CIRCLE="2065ae463be4e434bb1d074a366d44e7a776d472"
+ENV MY_SEC_1="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"
+
+RUN npm install
+
+CMD "npm" "start"
