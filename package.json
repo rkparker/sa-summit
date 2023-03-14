@@ -1,0 +1,9 @@
+{
+  "name": "test_sca",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "marked": "0.0.1"
+  }
+}
